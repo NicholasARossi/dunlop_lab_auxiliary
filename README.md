@@ -1,4 +1,6 @@
 # dunlop_lab_auxiliary
+![banner](logos/banner.png)
+
 ### A collection of Scripts to make lab work easier
 This repository is a central location for making day to day lab tasks more automated and easier. Below is a description of each one and its intended function. These scripts were written by Zachary Hiens and Nicholas Rossi.
 
