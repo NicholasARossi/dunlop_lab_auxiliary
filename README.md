@@ -1,6 +1,6 @@
 # dunlop_lab_auxiliary
 ### A collection of Scripts to make lab work easier
-This repository is a central location for making day to day lab tasks more automated and easier. Belowe is a description of each one and its intended function. These scripts were written by Zachary Hiens and Nicholas Rossi.
+This repository is a central location for making day to day lab tasks more automated and easier. Below is a description of each one and its intended function. These scripts were written by Zachary Hiens and Nicholas Rossi.
 
 
 ### List of functions:
@@ -9,7 +9,14 @@ This repository is a central location for making day to day lab tasks more autom
 Copies tiffs (leaving originals) into new directories based on group numbers extracted from the filename. This function is used to split up large datasets that will break the supper segger code (eg >1500 tiffs)
 You call this function from the terminal in the following manner: 
 ```bash
-$ python parser.py tiff_director num_groups
+$ python parser.py tiff_directory num_groups
+```
+
+## snap_parser.py: 
+If you take a series of snaps with multiple replicates and multiple positions, it may be necesarry to break up the tiffs into groups based on the conditions, not based alone on xy position. 
+This script takes one argument, just the director that you want to break up.
+```bash
+$ python snap_parser.py tiff_directory 
 ```
 
 ## test.m:
