@@ -6,7 +6,11 @@ This repository is a central location for making day to day lab tasks more autom
 ### List of functions:
 
 ## parser.py: 
-Copies tiffs (leaving originals) into new directories based on group numbers extracted from the filename.
+Copies tiffs (leaving originals) into new directories based on group numbers extracted from the filename. This function is used to split up large datasets that will break the supper segger code (eg >1500 tiffs)
+You call this function from the terminal in the following manner: 
+```bash
+$ python parser.py tiff_director num_groups
+```
 
 ## test.m:
 Main matlab script I used to process all the data. Calls parse_experiment_data, which in turn calls fitdata.
